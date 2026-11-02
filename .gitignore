@@ -1,0 +1,29 @@
+# Virtualenv and Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Raw conversation logs: 161 MB, kept locally as the evidence trail.
+# They are regenerable and are shipped on request instead.
+runs/
+runs_*/
+logs/
+
+# Small end-to-end artefacts, regenerable with scripts/run_grid.sh smoke
+results_smoke/
+paper_outputs_smoke/
+
+# Release archives (regenerable with scripts/finalize.sh + tar)
+ship/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

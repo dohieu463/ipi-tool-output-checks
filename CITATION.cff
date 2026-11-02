@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the repository; a paper citation will be added when available."
+title: "Checking Tool Outputs Against Indirect Prompt Injection: An Empirical Study of the Security-Utility-Cost Trade-off in LLM Agents (artifact)"
+type: software
+authors:
+  - family-names: "Nguyễn"
+    given-names: "Thế Dũng"
+version: "1.0.0"
+date-released: "2026-11-02"
+license: MIT
+url: "https://github.com/dohieu463/ipi-tool-output-checks"
+keywords:
+  - indirect prompt injection
+  - LLM agents
+  - tool outputs
+  - AgentDojo
+  - security-utility trade-off
+abstract: >-
+  Code, raw results and derived tables for an evaluation of eight tool-output
+  checking strategies on AgentDojo v1.2.2 (slack and banking) with
+  gpt-4o-mini-2024-07-18, three seeds, two attacks, and a blocking-policy
+  ablation.

@@ -1,0 +1,99 @@
+{
+  "model": "gpt-4o-mini-2024-07-18",
+  "suites": [
+    "banking",
+    "slack"
+  ],
+  "pooled": {
+    "none": {
+      "BU": [
+        0.6756756756756757,
+        0.5146336850482394,
+        0.8036692217918453
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.5261044176706827,
+        0.46415920209107886,
+        0.5872563877485678
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.3534136546184739,
+        0.29667551165024975,
+        0.414606176173273
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 3831.4864864864867,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 4.637782315701574,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0006556256756756755,
+      "benign_flag_rate": null,
+      "benign_outputs_checked": 0,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": null,
+      "p_UA_vs_none": null
+    },
+    "transformers_pi_detector": {
+      "BU": [
+        0.32432432432432434,
+        0.19633077820815478,
+        0.48536631495176064
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.24899598393574296,
+        0.1993707209188068,
+        0.30624860754612937
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.020080321285140562,
+        0.008606744392803317,
+        0.046137411632154596
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 14629.027027027027,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 17.026170474971092,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0023056378378378374,
+      "benign_flag_rate": 0.8915441176470589,
+      "benign_outputs_checked": 544,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 2.0679515313825692e-25,
+      "p_UA_vs_none": 2.0830055605008275e-13
+    },
+    "transformers_line_filter": {
+      "BU": [
+        0.5675675675675675,
+        0.40913906334200717,
+        0.713285131596487
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.46184738955823296,
+        0.4009726523504755,
+        0.5238814855761948
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.024096385542168676,
+        0.011089167193471368,
+        0.051565079576047564
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 3803.3783783783783,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 7.087713292674036,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0006437108108108108,
+      "benign_flag_rate": 0.35172413793103446,
+      "benign_outputs_checked": 145,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 4.1359030627651384e-25,
+      "p_UA_vs_none": 0.00904118549078703
+    }
+  }
+}

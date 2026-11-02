@@ -1,0 +1,12 @@
+| Suite | Defense | BU % | UA % | ASR % | n (attack pairs) |
+|---|---|---|---|---|---|
+| banking | No defense | 50.0 | 51.4 | 27.8 | 144 |
+| banking | Regex detector | 68.8 | 52.1 | 29.9 | 144 |
+| banking | DeBERTa classifier | 43.8 | 31.9 | 2.1 | 144 |
+| banking | LLM detector | 50.0 | 29.2 | 0.0 | 144 |
+| banking | LLM sanitizer | 43.8 | 45.8 | 0.0 | 144 |
+| slack | No defense | 76.2 | 61.0 | 45.7 | 105 |
+| slack | Regex detector | 81.0 | 58.1 | 41.9 | 105 |
+| slack | DeBERTa classifier | 23.8 | 13.3 | 1.9 | 105 |
+| slack | LLM detector | 71.4 | 10.5 | 0.0 | 105 |
+| slack | LLM sanitizer | 61.9 | 52.4 | 0.0 | 105 |

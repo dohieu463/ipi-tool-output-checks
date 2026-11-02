@@ -1,0 +1,3 @@
+agentdojo[transformers]==0.1.35
+matplotlib>=3.8
+python-dotenv>=1.0

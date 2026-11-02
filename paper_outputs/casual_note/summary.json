@@ -1,0 +1,159 @@
+{
+  "model": "gpt-4o-mini-2024-07-18",
+  "suites": [
+    "banking",
+    "slack"
+  ],
+  "pooled": {
+    "none": {
+      "BU": [
+        0.6486486486486487,
+        0.48758729517569566,
+        0.7817459336889914
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.5542168674698795,
+        0.4921196049134869,
+        0.6146666201380869
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.3534136546184739,
+        0.29667551165024975,
+        0.414606176173273
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 4669.918918918919,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 5.190531961512877,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0007820594594594593,
+      "benign_flag_rate": null,
+      "benign_outputs_checked": 0,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": null,
+      "p_UA_vs_none": null
+    },
+    "regex_detector": {
+      "BU": [
+        0.7567567567567568,
+        0.5988239750929105,
+        0.8663879656733671
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.5461847389558233,
+        0.48411112790461713,
+        0.6068549156578347
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.3493975903614458,
+        0.2928720942960181,
+        0.41049950278294356
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 5227.486486486487,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 5.23569472308107,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.000868260810810811,
+      "benign_flag_rate": 0.0,
+      "benign_outputs_checked": 172,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 1.0,
+      "p_UA_vs_none": 0.8388197422027588
+    },
+    "transformers_pi_detector": {
+      "BU": [
+        0.32432432432432434,
+        0.19633077820815478,
+        0.48536631495176064
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.24096385542168675,
+        0.192037278624611,
+        0.29776186835120305
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.020080321285140562,
+        0.008606744392803317,
+        0.046137411632154596
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 16812.297297297297,
+      "checker_tokens_per_task": 0.0,
+      "seconds_per_task": 19.293394396619593,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.002640377027027026,
+      "benign_flag_rate": 0.8946515397082658,
+      "benign_outputs_checked": 617,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 2.0679515313825692e-25,
+      "p_UA_vs_none": 2.5408533354923057e-16
+    },
+    "llm_detector": {
+      "BU": [
+        0.6216216216216216,
+        0.4610014255281996,
+        0.7593621253610898
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.21285140562248997,
+        0.16657164814455516,
+        0.2678568636193318
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.0,
+        0.0,
+        0.01519370230215281
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 9065.864864864865,
+      "checker_tokens_per_task": 1442.8648648648648,
+      "seconds_per_task": 10.516578438515598,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0014556445945945943,
+      "benign_flag_rate": 0.020618556701030927,
+      "benign_outputs_checked": 194,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 6.462348535570529e-27,
+      "p_UA_vs_none": 1.0151703314527744e-22
+    },
+    "llm_sanitizer": {
+      "BU": [
+        0.5405405405405406,
+        0.38383779524767364,
+        0.6896167217154228
+      ],
+      "n_BU": 37,
+      "UA": [
+        0.4859437751004016,
+        0.4245499613393189,
+        0.5477647210547175
+      ],
+      "n_UA": 249,
+      "ASR": [
+        0.0,
+        0.0,
+        0.01519370230215281
+      ],
+      "n_ASR": 249,
+      "tokens_per_task": 5160.945945945946,
+      "checker_tokens_per_task": 1152.972972972973,
+      "seconds_per_task": 9.041688855539228,
+      "allowance_usd_per_task": 0.0,
+      "usd_per_task": 0.0009339283783783783,
+      "benign_flag_rate": 0.16778523489932887,
+      "benign_outputs_checked": 149,
+      "cost_is_partial": false,
+      "p_ASR_vs_none": 6.462348535570529e-27,
+      "p_UA_vs_none": 0.003326892852783203
+    }
+  }
+}
